@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سيرتي الذاتية - Portfolio</title>
+    <!-- ربط إطار عمل Bootstrap لتصميم جميل ومتجاوب -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+    <!-- شريط التنقل العلوي -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">موقعي الشخصي</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link active" href="#">الرئيسية</a>
+                <a class="nav-link" href="#about">نبذة عني</a>
+                <a class="nav-link" href="#skills">المهارات</a>
+                <a class="nav-link" href="#projects">المشاريع</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- القسم الرئيسي (Hero Section) -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">أهلاً بكِ في موقعي الشخصي</h1>
+            <p class="lead">طالبة ذكاء اصطناعي ومطورة برمجيات شغوفة بتكنولوجيا الويب وتطوير التطبيقات</p>
+        </div>
+    </header>
+
+    <div class="container my-5">
+        <!-- قسم نبذة عني -->
+        <section id="about" class="mb-5">
+            <h2 class="border-bottom pb-2 mb-3">نبذة عني</h2>
+            <p class="fs-5">
+                أنا طالبة في سنة ثانية بكلية الذكاء الاصطناعي، لدي خبرة في لغات البرمجة المختلفة مثل Python و Java و C#، وأهتم بتطوير واجهات المستخدم وتصميم الأنظمة البرمجية الذكية.
+            </p>
+        </section>
+
+        <!-- قسم المهارات -->
+        <section id="skills" class="mb-5">
+            <h2 class="border-bottom pb-2 mb-3">المهارات البرمجية</h2>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card p-3 shadow-sm">
+                        <h5>لغات البرمجة</h5>
+                        <p>Python, Java, C#</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card p-3 shadow-sm">
+                        <h5>تطوير الويب</h5>
+                        <p>HTML, CSS, Bootstrap</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card p-3 shadow-sm">
+                        <h5>قواعد البيانات</h5>
+                        <p>MySQL, SQL Workbench</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم المشاريع -->
+        <section id="projects" class="mb-5">
+            <h2 class="border-bottom pb-2 mb-3">المشاريع السابقة</h2>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">لعبة Tic-Tac-Toe بالذكاء الاصطناعي</h5>
+                            <p class="card-text">لعبة تفاعلية باستخدام لغة Python ومكتبة Tkinter مع دمج خوارزميات البحث الذكية مثل Minimax.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">نظام إدارة الطلاب (Student Management System)</h5>
+                            <p class="card-text">تطبيق سطح مكتب مكتوب بلغة Java باستخدام Swing ومربوط بقاعدة بيانات MySQL عبر JDBC.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- تذييل الصفحة (Footer) -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">جميع الحقوق محفوظة &copy; 2026</p>
+    </footer>
+
+</body>
+</html>
